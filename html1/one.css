@@ -1,0 +1,61 @@
+.divparent {
+    background-color:#f0f0f0;
+    height: 550px;
+    background: url(abc.avif);
+    background-position: fixed;
+}
+
+body {
+    font-family: Verdana;
+}
+
+.child1 {
+    background-color: #c5d5c5;
+    line-height: -4;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.child2 {
+    display: flex;
+    justify-content:space-around;
+    background-color: #c5d5c5;
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.grandchild {
+    vertical-align: middle;
+}
+
+.span1 {
+    border-radius: 10px;
+    background-color: #e3e0cc;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.child3 {
+    background-color: #c5d5c5;
+}
+
+.image {
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+}
+
+a:unvisited {
+    color: black
+}
+
+.links {
+    padding-left: 30px;
+    padding-right: 30px;
+}
